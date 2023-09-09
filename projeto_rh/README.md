@@ -1,7 +1,7 @@
 # Projeto de Previsão de Classificação - Atrito de Funcionários
 
-![GitHub](https://img.shields.io/github/license/seu-usuario/nome-do-repositorio)
-![GitHub last commit](https://img.shields.io/github/last-commit/seu-usuario/nome-do-repositorio)
+![GitHub](https://img.shields.io/github/license/muriloWeber/Portfolio_Data_Science)
+![GitHub last commit](https://img.shields.io/github/last-commit/muriloWeber/Portfolio_Data_Science)
 
 ## Visão Geral
 
