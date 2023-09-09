@@ -1,8 +1,5 @@
 # Projeto de Previsão de Classificação - Atrito de Funcionários
 
-![GitHub](https://img.shields.io/github/license/seu-usuario/nome-do-repositorio)
-![GitHub last commit](https://img.shields.io/github/last-commit/seu-usuario/nome-do-repositorio)
-
 ## Visão Geral
 
 Este é um projeto de previsão de classificação desenvolvido para ajudar o Departamento de Recursos Humanos a identificar funcionários propensos a deixar a empresa. O projeto utiliza técnicas de aprendizado de máquina e é direcionado ao Departamento de Recursos Humanos (RH) de uma organização.

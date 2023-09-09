@@ -14,6 +14,8 @@ Sinta-se à vontade para explorar os diferentes projetos de acordo com seus inte
 ## Projetos Destacados
 Alguns dos projetos que você encontrará neste repositório incluem:
 
+Projeto de Previsão de Classificação - Atrito de Funcionários (Departamento de RH)
+
 EM CONSTRUÇÃO
 
 
