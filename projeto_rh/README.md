@@ -34,9 +34,9 @@ Este é um projeto de previsão de classificação desenvolvido para ajudar o De
 
 É importante observar que a base de dados utilizada neste projeto está desbalanceada, ou seja, há um desequilíbrio significativo entre as classes de funcionários que saíram da empresa (classe positiva) e os que ficaram (classe negativa). Esse desbalanceamento pode afetar o desempenho do modelo de machine learning, levando a resultados enviesados.
 
-## Versão 2 (V2) - Aplicação de Oversampling para Balanceamento da classe a ser prevista**
+## Versão 2 (V2) - Aplicação de Oversampling para Balanceamento da classe a ser prevista
 
-Os três primeiros itens da versão 1 foram mantidas na versão 2, abaixo segue as principais mudanças na V2:
+Os três primeiros itens da versão 1 foram mantidas na versão 2, abaixo seguem as principais abordagens na V2:
 
 **Oversampling para Balanceamento de Dados:**
 Nesta versão do projeto, foi aplicada a técnica de oversampling para balancear a classe minoritária em relação à classe majoritária. Isso ajuda a melhorar o desempenho do modelo em dados desbalanceados.
