@@ -16,7 +16,7 @@ Este é um projeto de previsão de classificação desenvolvido para ajudar o De
 - Bibliotecas Principais: Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, TensorFlow/Keras
 - Ferramentas: Jupyter Notebook, GitHub
 
-## Etapas do Projeto
+## Etapas do Projeto Versão 1 (V1)
 
 1. **Importação e Análise dos Dados**: Os dados foram importados a partir de um arquivo CSV e uma análise inicial foi realizada para entender a estrutura da base de dados.
 
@@ -34,8 +34,30 @@ Este é um projeto de previsão de classificação desenvolvido para ajudar o De
 
 É importante observar que a base de dados utilizada neste projeto está desbalanceada, ou seja, há um desequilíbrio significativo entre as classes de funcionários que saíram da empresa (classe positiva) e os que ficaram (classe negativa). Esse desbalanceamento pode afetar o desempenho do modelo de machine learning, levando a resultados enviesados.
 
-## Possível Versão Futura (V2)
+## Versão 2 (V2) - Aplicação de Oversampling para Balanceamento da classe a ser prevista**
 
-Uma possível melhoria para este projeto seria abordar o problema do desbalanceamento da base de dados. Isso pode ser feito por meio de técnicas de balanceamento de dados, como oversampling da classe minoritária, undersampling da classe majoritária ou o uso de algoritmos de aprendizado de máquina projetados para lidar com dados desbalanceados.
+Os três primeiros itens da versão 1 foram mantidas na versão 2, abaixo segue as principais mudanças na V2:
 
-Futuras versões deste projeto podem explorar essas técnicas e avaliar seu impacto no desempenho do modelo, buscando obter previsões mais precisas e úteis para o RH da empresa. Esta é uma área de aprimoramento importante para tornar o projeto ainda mais eficaz.
+**Oversampling para Balanceamento de Dados:**
+Nesta versão do projeto, foi aplicada a técnica de oversampling para balancear a classe minoritária em relação à classe majoritária. Isso ajuda a melhorar o desempenho do modelo em dados desbalanceados.
+
+**Random Forest:**
+Um modelo de Random Forest foi treinado, utilizando os dados de treinamento, e avaliado, utilizando os dados de teste. Métricas de desempenho, como precisão, recall, F1 Score e acurácia, foram calculadas para avaliar o modelo. O Random Forest demonstrou um desempenho excepcional na identificação de funcionários propensos a deixar a empresa.
+
+**Random Forest com Bootstrap Bagging (Tentativa de Redução de Variabilidade):**
+No modelo de Random Forest, foi realizada uma tentativa de reduzir a variabilidade na validação cruzada por meio da técnica de Bootstrap Bagging. No entanto, essa tentativa não teve sucesso.
+
+**Rede Neural Artificial (MLP):**
+Uma rede neural artificial (MLP) foi implementada e treinada com diferentes camadas e neurônios. O modelo MLP alcançou um equilíbrio entre precisão e recall, tornando-o eficaz na identificação de funcionários propensos a sair.
+
+**Análise de Overfitting:**
+Foram realizadas análises de overfitting para avaliar a capacidade de generalização dos modelos. No geral, os modelos não apresentaram sinais significativos de overfitting.
+
+**Busca de Melhor Combinação de Hiperparâmetros:**
+Para o modelo de Random Forest, uma busca de hiperparâmetros foi realizada para encontrar a melhor combinação de parâmetros e melhorar o desempenho.
+
+**Escolha do Melhor Modelo:**
+A rede neural artificial (MLP) foi escolhida como o modelo final devido ao seu melhor desempenho geral e equilíbrio entre precisão e recall.
+
+**Conclusão:**
+Este projeto evoluiu com a aplicação de técnicas avançadas, resultando em um modelo de previsão mais preciso e eficaz para o Departamento de Recursos Humanos. A escolha do modelo final levou em consideração o equilíbrio entre precisão e recall, garantindo que os funcionários propensos a deixar a empresa sejam identificados com alta precisão.
