@@ -16,7 +16,7 @@ Alguns dos projetos que você encontrará neste repositório incluem:
 
 Projeto de Previsão de Classificação - Atrito de Funcionários (Departamento de RH)
 
-EM CONSTRUÇÃO
+Projeto de Clusterização - Agrupamento de Clientes (Departamento de Marketing) 
 
 
 ## Contribuições e Contato
