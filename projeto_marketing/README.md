@@ -63,4 +63,4 @@ Link para os dados no Kaggle (https://www.kaggle.com/datasets/arjunbhasin2013/cc
 
 - O número de clusters foi determinado utilizando o método do cotovelo. No entanto, esse método é apenas uma aproximação e não é garantido que ele irá identificar o número de clusters ideal.
 
-- Essa limitação será abordada na versão 2 do projeto, onde será realizada uma análise mais completa da sensibilidade do modelo ao número de clusters com a inclusão de análise de métricas como precisão, recall e f1-score.
+- Essa limitação será abordada na versão 2 do projeto, onde será realizada uma análise mais completa da sensibilidade do modelo ao número de clusters com a inclusão de análise por meio da métrica Silhouette Score.
