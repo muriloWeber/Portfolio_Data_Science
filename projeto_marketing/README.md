@@ -64,3 +64,45 @@ Link para os dados no Kaggle (https://www.kaggle.com/datasets/arjunbhasin2013/cc
 - O número de clusters foi determinado utilizando o método do cotovelo. No entanto, esse método é apenas uma aproximação e não é garantido que ele irá identificar o número de clusters ideal.
 
 - Essa limitação será abordada na versão 2 do projeto, onde será realizada uma análise mais completa da sensibilidade do modelo ao número de clusters com a inclusão de análise por meio da métrica Silhouette Score.
+
+## Etapas do Projeto Versão 2 (V2)
+
+- As etapas 1, 2 e 3 seguiram exatamente iguais à versão 1 do projeto, a seguir seguem as etapas diferenciadas:
+
+4. **Aplicação de Autoencoders:** 
+- Utilização de autoencoders para redução de dimensionalidade.
+
+5. **Análise de Perda de Informação (Entropia):**
+- Avaliação da perda de informação durante o processo de compactação.
+
+6. **Definição do Número de Clusters usando Elbow Method + Silhouette Score:**
+- Utilização do método do cotovelo e Silhouette Score para determinar o número ideal de clusters.
+
+7. **Agrupamento com K-means:**
+- Aplicação do algoritmo K-means para agrupar clientes em clusters.
+
+8. **Aplicação de PCA e Visualização:** 
+- Aplicação da técnica PCA para redução de dimensionalidade e visualização dos clusters em um gráfico de dispersão.
+
+9. **Exportação de Resultados:**
+- Criação de DataFrames ordenados com os clusters para envio ao Departamento de Marketing.
+
+10. **Conclusões e Recomendações:**
+- Análise final dos clusters e sugestões de estratégias de marketing.
+
+## Melhorias na Versão 2 (V2)
+A versão 2 do projeto incorporou diversas melhorias para abordar as limitações identificadas na versão anterior:
+
+**1. Determinação do Número de Clusters:**
+
+- Na V1, o número de clusters foi determinado usando apenas o método do cotovelo (Elbow Method). Na V2, a abordagem foi aprimorada ao incluir a métrica de Silhouette Score. A combinação desses métodos proporciona uma análise mais robusta e fundamentada na escolha do número ideal de clusters.
+
+**2. Análise de Perda de Informação (Entropia):**
+
+- Na V2, foi introduzida uma análise de perda de informação durante a aplicação de autoencoders. Utilizando a entropia, avaliamos a quantidade média de informação preservada durante o processo de compactação. Esse método adiciona uma perspectiva valiosa sobre a qualidade da redução de dimensionalidade alcançada pelos autoencoders.
+
+**3. Avaliação da Sensibilidade do Modelo:**
+
+- A V2 incorporou uma análise mais completa da sensibilidade do modelo ao número de clusters, utilizando Silhouette Score. Isso proporciona uma compreensão mais refinada da separação entre os clusters, mitigando as limitações do método do cotovelo.
+
+Essas melhorias resultam em uma abordagem mais robusta e informada na clusterização dos clientes de cartão de crédito, proporcionando ao Departamento de Marketing insights mais precisos para suas estratégias.
