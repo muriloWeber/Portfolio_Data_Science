@@ -16,7 +16,9 @@ Alguns dos projetos que você encontrará neste repositório incluem:
 
 Projeto de Previsão de Classificação - Atrito de Funcionários (Departamento de RH)
 
-Projeto de Clusterização - Agrupamento de Clientes (Departamento de Marketing) 
+Projeto de Clusterização - Agrupamento de Clientes (Departamento de Marketing)
+
+Projeto de Previsão de Vendas - Modelo Prophet (Comercial)
 
 
 ## Contribuições e Contato
